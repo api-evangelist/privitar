@@ -1,8 +1,25 @@
 aid: privitar
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/privitar.png
 name: Privitar
-description: 'Privitar is a company surfaced as a portfolio company of accel, partech and added to the
-  API Evangelist network as a stub for enrichment. Sector: big-data. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Privitar was a UK-founded data privacy and data provisioning company known for its Data
+  Privacy Platform, which applied de-identification, anonymization, tokenization and policy-based data
+  access controls to sensitive data at scale for enterprises in financial services, healthcare and
+  government. Privitar was acquired by Informatica in 2023 and folded into Informatica''s data governance
+  and privacy portfolio. As of this enrichment pass the privitar.com domain (and docs.privitar.com)
+  permanently redirects (HTTP 301) to informatica.com, and no independent Privitar developer portal,
+  API documentation, or API surface remains online. This profile is retained as a network lead record
+  for the former company; live API artifacts now belong to Informatica.'
 url: https://raw.githubusercontent.com/api-evangelist/privitar/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,13 +27,21 @@ x-backed-by:
 - accel
 - partech
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: acquired-no-api-surface
+x-status: acquired
+x-acquired-by: informatica
+x-acquired-year: '2023'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Big Data
+- Data Privacy
+- De-identification
+- Data Governance
+- Data Anonymization
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +49,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/privitar-domain-security.yml
 - type: Website
-  url: http://www.privitar.com
+  url: https://www.privitar.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+  note: 'privitar.com 301-redirects to informatica.com (acquired 2023); no independent API surface.
+    Only a live domain-security probe artifact was produced.'
