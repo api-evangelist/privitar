@@ -49,7 +49,7 @@ tags:
 - Company
 - Big Data
 - Data Privacy
-- De-Identification
+- De-identification
 - Data Governance
 - Data Anonymization
 - Acquired
@@ -68,6 +68,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/informatica/
+  name: Informatica
+  x-relationship: acquired
+  x-evidence: "Privitar was acquired by Informatica in 2023 and folded into Informatica's data governance and privacy portfolio."
 - type: DomainSecurity
   url: security/privitar-domain-security.yml
 - type: Website
