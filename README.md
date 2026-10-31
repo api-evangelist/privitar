@@ -64,6 +64,44 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Privitar is a company surfaced as a portfolio company of accel, partech and added to the API Evangelist network as a stub for enrichment. Sector: big-data. This profile is a lead awaiting the enrichment pipeline.
+> **Acquired or rebranded.** This company was acquired, merged or renamed. Its API, if it still exists, is offered under another name. This profile is kept as a historical record and is not maintained or rated.
 
-Backed by: accel, partech — http://www.privitar.com
+Privitar was a UK-founded data privacy and data provisioning company known for its Data Privacy Platform, which applied de-identification, anonymization, tokenization and policy-based data access controls to sensitive data at scale for enterprises in financial services, healthcare and government. Privitar was acquired by Informatica in 2023 and folded into Informatica's data governance and privacy portfolio. As of this enrichment pass the privitar.com domain (and docs.privitar.com) permanently redirects (HTTP 301) to informatica.com, and no independent Privitar developer portal, API documentation, or API surface remains online. This profile is retained as a network lead record for the former company; live API artifacts now belong to Informatica.
+
+**Areas:** Company · Big Data · Privacy · De-Identification · Data Governance · Data Anonymization · Acquired
+
+## Privitar on APIs.io (historical record)
+
+Everything profiled for Privitar is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/privitar/](https://apis.io/providers/privitar/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Privitar Domain Security](https://apis.io/security/privitar/privitar-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.privitar.com)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as acquired or rebranded, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Privitar: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/privitar/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
